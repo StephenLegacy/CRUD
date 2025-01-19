@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the backdate (yesterday's date)
-BACKDATE="2025-01-25T14:30:00"
+BACKDATE="2025-01-19T14:30:00"
 
 # Add and commit each file separately
 git add backdate_commit.sh
