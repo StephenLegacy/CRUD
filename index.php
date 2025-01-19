@@ -42,7 +42,7 @@ $totalPages = ceil($totalPosts / $limit);
         </form>
     </div>
 
-    <!-- Post Creation Form create -->
+    <!-- Post to Creation Form create -->
     <form method="POST" action="add_post.php" enctype="multipart/form-data">
         <input type="text" name="title" placeholder="Post Title" required><br>
         <textarea name="content" placeholder="Post Content" required></textarea><br>
