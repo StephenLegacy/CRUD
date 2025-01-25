@@ -14,6 +14,7 @@ $user = $stmt->fetch();
 
 if ($user["role"] !== "admin") {
     die("<div style='text-align:center; font-size:18px; color:green;'>Access Denied</div>"); 
+    
 }
 
 $users = $pdo->query("SELECT * FROM users")->fetchAll();
