@@ -20,7 +20,7 @@ $admin_email = "admin@example.com";
 $admin_password = password_hash("Admin@123", PASSWORD_DEFAULT); // Secure password
 $admin_role = "admin";
 
-// Check if admin already exists
+// Check if admin already exists in the syst
 $stmt = $pdo->prepare("SELECT COUNT(*) FROM users WHERE role = ?");
 $stmt->execute([$admin_role]);
 $adminExists = $stmt->fetchColumn();
