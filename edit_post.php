@@ -30,6 +30,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <form method="POST">
         <input type="text" name="title" value="<?= $post['title'] ?>" required><br>
         <textarea name="content" required><?= $post['content'] ?></textarea><br>
-        <button type="submit">Update the Post</button>
+        <button type="submit">Update  Post</button>
     </form>
 </div>
