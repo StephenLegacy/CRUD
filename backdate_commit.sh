@@ -1,14 +1,14 @@
 #!/bin/bash
 
 # Set the backdate (yesterday's date)
-BACKDATE="2025-01-04T14:32:00"
+BACKDATE="2025-03-16T14:32:00"
 
 # Add and commit each file separately
 git add backdate_commit.sh
 GIT_AUTHOR_DATE="$BACKDATE" GIT_COMMITTER_DATE="$BACKDATE" git commit -m "Add comment functionality (backdated)"
 
 git add add_comment.php
-GIT_AUTHOR_DATE="$BACKDATE" GIT_COMMITTER_DATE="$BACKDATE" git commit -m "Add comment functionality (backdated)"
+GIT_AUTHOR_DATE="$BACKDATE" GIT_COMMITTER_DATE="$BACKDATE" git commit -m "Add comment functionality "
 
 git add add_post.php
 GIT_AUTHOR_DATE="$BACKDATE" GIT_COMMITTER_DATE="$BACKDATE" git commit -m "Implement post creation feature (backdated)"
