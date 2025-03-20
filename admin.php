@@ -41,6 +41,3 @@ $users = $pdo->query("SELECT * FROM users")->fetchAll();
     </table> 
 </div>
 
-
-<!-- 
-oloo -->
