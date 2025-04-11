@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the backdate (yesterday's date)
-BACKDATE="2025-04-20T11:32:00"
+BACKDATE="2025-04-11T11:32:00"
 
 # Add and commit each file separately
 git add backdate_commit.sh
@@ -59,4 +59,4 @@ git add uploads/
 GIT_AUTHOR_DATE="$BACKDATE" GIT_COMMITTER_DATE="$BACKDATE" git commit -m "Media upload folder (backdated)"
 
 # Push all commits
-git push origin main  # Change 'main' to your branch name if different
+git push origin main  # Change 'main' to your branch name if different -- wahala
